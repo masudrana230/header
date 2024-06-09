@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    width: 100%;
+    padding: 10px 0px;
+}
+.am{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.ma{
+    flex-basis: 20%;
+}
+.ma a img{
+    width: 175px;
+}
+.menu{
+    flex-basis: 60%;
+}
+.btns{
+    flex-basis: 20%;
+}
+.am ul{
+    margin: 0;
+    padding: 0;
+}
+.am ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    color: rgb(40, 124, 219);
+    
+}
+.btns button{
+    padding: 9px 20px;
+    background-color: rgb(58, 132, 228);
+    color: white;
+   font-size: 16px;
+   border: 1px solid rgb(15, 103, 185);
+  
+}
